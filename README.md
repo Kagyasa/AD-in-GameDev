@@ -47,17 +47,28 @@
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity. 
 ![image](https://github.com/user-attachments/assets/4935d3dc-57d0-495f-bf67-b021c4c1129d)
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
+
 public class HelloWorld : MonoBehaviour
+
 {
+
     // Этот метод вызывается при старте
+    
     void Start()
+    
     {
+    
         Debug.Log("Hello, World!");
+        
     }
+    
 }
 
 
